@@ -1,6 +1,7 @@
 package com.bnta.chocolate.services;
 
 import com.bnta.chocolate.models.Chocolate;
+import com.bnta.chocolate.models.ChocolateDTO;
 import com.bnta.chocolate.repositories.ChocolateRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -30,5 +31,12 @@ public class ChocolateService {
     public List<Chocolate> getChocolatesWithCocoaPercentage(int cocoaPercentage){
         return chocolateRepository.findByCocoaPercentageGreaterThan(cocoaPercentage);
     }
+
+//    public Chocolate addNewChocolateToEstate(ChocolateDTO chocolateDTO) {
+//        chocolateRepository.save(chocolateDTO);
+//        Chocolate chocolate = new Chocolate(ChocolateDTO.)
+//
+//        return chocolateDTO;
+//    }
 
 }
