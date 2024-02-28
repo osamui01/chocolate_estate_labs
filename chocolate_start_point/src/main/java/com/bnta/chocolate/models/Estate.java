@@ -18,7 +18,7 @@ public class Estate {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "country")
+    @Column(name = "countries")
     private String country;
 
     @OneToMany(mappedBy = "estate")
