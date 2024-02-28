@@ -25,7 +25,7 @@ public class DataLoader implements ApplicationRunner {
         Estate estate2 = new Estate("Lidl", "Sweden");
 
         Chocolate chocolate1 = new Chocolate( "Bounty", 65, estate1);
-        Chocolate chocolate2 = new Chocolate( "Snicker", 80, estate2);
+        Chocolate chocolate2 = new Chocolate( "Snicker", 60, estate2);
         Chocolate chocolate3 = new Chocolate( "MilkyWay", 90, estate2);
         Chocolate chocolate4 = new Chocolate( "PeanutButter", 2, estate1);
 
